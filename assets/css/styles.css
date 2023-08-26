@@ -1,0 +1,269 @@
+@charset "UTF-8";
+.cor-terciaria {
+  background-color: #f8a5dc;
+}
+
+.grid-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.grid-container .col {
+  flex: 1;
+}
+.grid-container .col-1 {
+  width: calc(100% / 12);
+}
+@media (max-width: 999px) {
+  .grid-container .col-1 {
+    width: 100%;
+  }
+}
+.grid-container .col-2 {
+  width: calc(100% / 6);
+}
+@media (max-width: 999px) {
+  .grid-container .col-2 {
+    width: 100%;
+  }
+}
+.grid-container .col-3 {
+  width: calc(100% / 4);
+}
+@media (max-width: 999px) {
+  .grid-container .col-3 {
+    width: 100%;
+  }
+}
+.grid-container .col-4 {
+  width: calc(100% / 3);
+}
+@media (max-width: 999px) {
+  .grid-container .col-4 {
+    width: 100%;
+  }
+}
+.grid-container .col-5 {
+  width: calc(100% / 2.4);
+}
+@media (max-width: 999px) {
+  .grid-container .col-5 {
+    width: 100%;
+  }
+}
+.grid-container .col-6 {
+  width: calc(100% / 2);
+}
+@media (max-width: 999px) {
+  .grid-container .col-6 {
+    width: 100%;
+  }
+}
+.grid-container .col-7 {
+  width: calc(100% / 1.7142857143);
+}
+@media (max-width: 999px) {
+  .grid-container .col-7 {
+    width: 100%;
+  }
+}
+.grid-container .col-8 {
+  width: calc(100% / 1.5);
+}
+@media (max-width: 999px) {
+  .grid-container .col-8 {
+    width: 100%;
+  }
+}
+.grid-container .col-9 {
+  width: calc(100% / 1.3333333333);
+}
+@media (max-width: 999px) {
+  .grid-container .col-9 {
+    width: 100%;
+  }
+}
+.grid-container .col-10 {
+  width: calc(100% / 1.2);
+}
+@media (max-width: 999px) {
+  .grid-container .col-10 {
+    width: 100%;
+  }
+}
+.grid-container .col-11 {
+  width: calc(100% / 1.0909090909);
+}
+@media (max-width: 999px) {
+  .grid-container .col-11 {
+    width: 100%;
+  }
+}
+.grid-container .col-12 {
+  width: calc(100% / 1);
+}
+@media (max-width: 999px) {
+  .grid-container .col-12 {
+    width: 100%;
+  }
+}
+
+.fundo-gradiente {
+  background-image: linear-gradient(to right, #d88936 30%, #114fb7 80%);
+  min-height: 96px;
+  display: flex;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.menu a {
+  font-weight: bold;
+  display: block;
+  padding: 10px 15px;
+  background-color: #ffe5d1;
+  border-radius: 10px;
+  transition: all 500ms;
+  text-decoration: none;
+}
+.menu a:hover {
+  background-color: #f2f2f2;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu li {
+  margin-right: 10px;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+
+li.amarelo {
+  background-color: yellow;
+}
+
+.redes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.redes a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 30%;
+}
+.redes a:hover img {
+  opacity: 0.5;
+}
+.redes a img {
+  width: 100%;
+  max-width: 30px;
+  height: auto;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.cabecalho .logo img {
+  max-width: 100px;
+  height: auto;
+}
+.cabecalho .menu a {
+  font-weight: bold;
+  display: block;
+  padding: 10px 15px;
+  background-color: #ffe5d1;
+  border-radius: 10px;
+  transition: all 500ms;
+  text-decoration: none;
+}
+.cabecalho .menu a:hover {
+  background-color: #f2f2f2;
+}
+.cabecalho .redes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+.cabecalho .redes a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  transition: all 500ms;
+}
+.cabecalho .redes a img {
+  margin: -10px;
+  max-width: 100%;
+  height: auto;
+}
+.cabecalho .redes a img:last-child {
+  margin-right: 0;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.cabecalho .logo img {
+  max-width: 100px;
+  height: auto;
+}
+.cabecalho .menu a {
+  font-weight: bold;
+  display: block;
+  padding: 10px 15px;
+  background-color: #ffe5d1;
+  border-radius: 10px;
+  transition: all 500ms;
+  text-decoration: none;
+}
+.cabecalho .menu a:hover {
+  background-color: #f2f2f2;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1400px; /* defino uma largura máxima */
+  margin: 0 auto; /* centralizo elementos block */
+}
+
+a.efeito-zoom img {
+  transition: all 1s ease-in-out;
+}
+a.efeito-zoom:hover img {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #1453bd;
+  padding: 60px 0;
+  color: #f8a5dc;
+  font-family: "Trebuchet ms";
+}
+
+/*# sourceMappingURL=styles.css.map */

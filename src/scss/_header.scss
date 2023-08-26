@@ -1,0 +1,148 @@
+.fundo-gradiente{
+  background-image: linear-gradient(to right, #d88936 30%, #114fb7 80%);
+  min-height: 96px;
+  display: flex;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.menu {
+  a {
+    font-weight: bold;
+    display: block;
+    padding: 10px 15px;
+    background-color: #ffe5d1;
+    border-radius: 10px;
+    transition: all 500ms;
+    text-decoration: none;
+    &:hover {
+      background-color: $corSecundaria;
+    }
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  li {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+li {
+  &.amarelo {
+    background-color: yellow;
+  }
+}
+
+.redes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  //   margin: 20px;
+  // retirar o ponto da lista
+  list-style: none;
+  a {
+    // background retangular com cantos arredondados somente atras das escritas
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    &:hover {
+        img{
+        opacity: 0.5;
+      }
+    }
+    img {
+      width: 100%;
+      max-width: 30px;
+      height: auto;
+    }
+  }
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  .logo {
+    img {
+      max-width: 100px;
+      height: auto;
+    }
+  }
+  .menu {
+    a {
+      font-weight: bold;
+      display: block;
+      padding: 10px 15px;
+      background-color: #ffe5d1;
+      border-radius: 10px;
+      transition: all 500ms;
+      text-decoration: none;
+      &:hover {
+        background-color: $corSecundaria;
+      }
+    }
+  }
+  .redes { display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    a {
+      display: block;
+      width: 30px;
+      height: 30px;
+      transition: all 500ms;
+      img {
+        margin: -10px;
+        max-width: 100%;
+        height: auto;
+        &:last-child {
+            margin-right: 0;
+          }
+      }
+    }
+  }
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  .logo {
+    img {
+      max-width: 100px;
+      height: auto;
+    }
+  }
+  .menu {
+    a {
+      font-weight: bold;
+      display: block;
+      padding: 10px 15px;
+      background-color: #ffe5d1;
+      border-radius: 10px;
+      transition: all 500ms;
+      text-decoration: none;
+      &:hover {
+        background-color: $corSecundaria;
+      }
+    }
+  }
+}

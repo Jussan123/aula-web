@@ -1,0 +1,17 @@
+{
+  "name": "aula-web",
+  "version": "1.0.0",
+  "description": "Aula para aprender conceitos de web",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./src/scss/styles.scss ./assets/css/styles.css"
+  },
+  "keywords": [
+    "aula"
+  ],
+  "author": "Jussan Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.64.2"
+  }
+}
