@@ -58,9 +58,6 @@ include_once __DIR__ . "/config/connection.php";
 -->
    
 </main>
-
 <?php
-
 include __DIR__ . "/footer.php";
-
 ?>

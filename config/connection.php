@@ -1,9 +1,14 @@
 <?php
 
+ini_set('display_errors', 1);
+
 $host = 'localhost';
 $username = 'senac';
 $password = 'senac';
 $database = 'AulaWeb';
+
+$image_folder = 'assets/images/';
+
 // cria uma conexão com o banco de dados a partir dos dados de conexão
 $pdo = new PDO("mysql:host=$host;dbname=$database", $username, $password);
 /*

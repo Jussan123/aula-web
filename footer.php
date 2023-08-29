@@ -4,13 +4,13 @@
             <div class="row">
                 <div class="grid-container">
                     <div class="col-md-3 col-sm-6">
-                        <p>Aqui é meu rodapé 1</p>
+                        <p></p>
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <p class="h4">•• © Desenvolvido por Jussan aluno Senac © ••</p>
                     </div>
                     <div class="col-md-3 col-sm-6">
-                        <p>Aqui é meu rodapé 2</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
