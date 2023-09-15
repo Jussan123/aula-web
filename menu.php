@@ -20,6 +20,8 @@
                     <li><a href="noticias.php">Notícias</a></li>
                     <li><a href="servicos.php">Serviços</a></li>
                     <li><a href="contato.php">Contato</a></li>
+                    <li><a href="exercicio.php">Exercício</a></li>
+                    <li><a href="json.php">JSON</a></li>
                 </ul>
             </nav>
         </div>
